@@ -1,0 +1,20 @@
+{
+  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.",
+    
+  "projects": [
+    {
+      "title": "Series Tracker",
+      "snippet": "Django powered series tracker to keep track of what episode last left on.",
+      "language": "Django",
+      "git": "https://github.com/exp0nge/django-series-tracker",
+      "web": "http://portfolio-exp0nge.c9.io/tracker/"
+    },
+    {
+      "title": "drop&dip",
+      "snippet": "A local storage solution for quick notes.",
+      "language": "AngularJS",
+      "git": "https://github.com/exp0nge/drop-and-dripset",
+      "web": "https://dropdip-exp0nge.c9.io/index.html"
+    }
+  ]
+}
