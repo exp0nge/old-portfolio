@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>MD R. Islam Portfolio</title>
+        <title>MD R. Islam - Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
@@ -15,14 +15,14 @@
   
         
     </head>
-    <body ng-controller="MainController as main">
+    <body ng-controller="MainController as main" background-color="grey lighten-5">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <div class="navbar-fixed">
         <nav>
         <div class="nav-wrapper cyan">
-          <a href="#!" class="brand-logo">MD R. Islam | Portfolio</a>
+          <a href="#!" class="brand-logo">MD R. Islam &middot; Portfolio</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#about">About</a></li>
@@ -38,15 +38,15 @@
           </ul>
         </div>
       </nav>
+      </div>
       
       
     <main>
-        
     <div class="container">
             <div class="row">
-                <div class="card-panel" id="about">About</div>
-            <div class="card-panel cyan lighten-5 col s8 offset-s2">
-              <span>{{ main.data.about }}</span>
+                <div class="card-panel section scrollspy" id="about">About</div>
+            <div class="card-panel col s4 offset-s4 orange">
+              <span class="white-text">{{ main.data.about }}</span>
             </div>
             </div>
     
@@ -55,12 +55,12 @@
     <div class="container">
         <div class="row">
             
-        <div class="card-panel" id="projects">Projects</div>
-        <ul class="collection col s8 offset-s2">
-            <li ng-repeat="project in main.data.projects" class="collection-item">
-                <div>{{ project.title}}</div>
-                <div><p>{{ project.snippet }}</p></div>
-                <div>
+        <div class="card-panel section scrollspy" id="projects">Projects</div>
+        <ul class="collection col s8 offset-s2 orange">
+            <li ng-repeat="project in main.data.projects" class="collection-item orange">
+                <div class="white-text">{{ project.title}}</div>
+                <div class="white-text"><p>{{ project.snippet }}</p></div>
+                <div class="white-text">
                     <a href="{{ project.web }}">Demo</a>
                     &middot;
                     <a href="{{ project.git }}">GitHub</a>
@@ -74,7 +74,7 @@
     <div class="container">
         <div class="row">
             
-        <div class="card-panel" id="resume">Resume</div>
+        <div class="card-panel section scrollspy" id="resume">Resume</div>
         <div>
             <iframe src="https://drive.google.com/file/d/0B9XWpLcVdKtjM09FRkJTbUgyREU/preview" width="100%" height="600px" frameBorder="0"></iframe>
         </div>
@@ -85,25 +85,25 @@
     <div class="container">
         <div class="row">
             
-        <div class="card-panel" id="contact">Contact</div>
+        <div class="card-panel section scrollspy" id="contact">Contact</div>
         <div class="col s4">
             <a href="https://www.linkedin.com/in/mdislamr">
         <div class="card-panel orange">
-            LinkedIn
+            <span class="white-text">LinkedIn</span>
         </div>
         </a>
           </div>
         <div class="col s4">
             <a href="mailto:mdislamwork@gmail.com">
         <div class="card-panel orange">
-            Email
+            <span class="white-text">Email</span>
         </div>
         </a>
         </div>
         <div class="col s4">
             <a href="http://github.com/exp0nge">
         <div class="card-panel orange">
-            GitHub Profile
+            <span class="white-text">GitHub Profile</span>
         </div>
         </a>
         </div>
@@ -120,6 +120,8 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $('.button-collapse').sideNav();
+            
+            $('body').css('background-color', 'grey rey lighten-3');
         });
     </script>
     </body>
