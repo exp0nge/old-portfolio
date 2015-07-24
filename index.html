@@ -44,8 +44,8 @@
     <main>
     <div class="container">
             <div class="row">
-                <div class="card-panel section scrollspy" id="about">About</div>
-            <div class="card-panel col s4 offset-s4 deep-orange lighten-3">
+                <div class="card-panel " id="about">About</div>
+            <div class="card-panel col s4 offset-s4 deep-orange lighten-3 hoverable">
               <span >{{ main.data.about }}</span>
             </div>
             </div>
@@ -55,9 +55,9 @@
     <div class="container">
         <div class="row">
             
-        <div class="card-panel section scrollspy" id="projects">Projects</div>
-        <ul class="collection col s8 offset-s2 deep-orange lighten-3">
-            <li ng-repeat="project in main.data.projects" class="collection-item deep-orange lighten-3">
+        <div class="card-panel " id="projects">Projects</div>
+        <ul class="collection col s8 offset-s2 hoverable deep-orange lighten-3">
+            <li ng-repeat="project in main.data.projects" class="collection-item deep-orange lighten-3 hoverable">
                 <div >{{ project.title}}</div>
                 <div ><p>{{ project.snippet }}</p></div>
                 <div >
@@ -74,8 +74,8 @@
     <div class="container">
         <div class="row">
             
-        <div class="card-panel section scrollspy" id="resume">Resume</div>
-        <div>
+        <div class="card-panel " id="resume">Resume</div>
+        <div class="card-panel hoverable">
             <iframe src="https://drive.google.com/file/d/0B9XWpLcVdKtjM09FRkJTbUgyREU/preview" width="100%" height="600px" frameBorder="0"></iframe>
         </div>
         
@@ -85,24 +85,24 @@
     <div class="container">
         <div class="row">
             
-        <div class="card-panel section scrollspy" id="contact">Contact</div>
+        <div class="card-panel " id="contact">Contact</div>
         <div class="col s4">
             <a href="https://www.linkedin.com/in/mdislamr">
-        <div class="card-panel deep-orange lighten-3">
+        <div class="card-panel deep-orange lighten-3 hoverable">
             <span >LinkedIn</span>
         </div>
         </a>
           </div>
         <div class="col s4">
             <a href="mailto:mdislamwork@gmail.com">
-        <div class="card-panel deep-orange lighten-3">
+        <div class="card-panel deep-orange lighten-3 hoverable">
             <span >Email</span>
         </div>
         </a>
         </div>
         <div class="col s4">
             <a href="http://github.com/exp0nge">
-        <div class="card-panel deep-orange lighten-3">
+        <div class="card-panel deep-orange lighten-3 hoverable">
             <span >GitHub Profile</span>
         </div>
         </a>
@@ -121,7 +121,7 @@
         $(document).ready(function(){
             $('.button-collapse').sideNav();
             
-            $('body').css('background-color', 'grey rey lighten-3');
+            $('body').css('background-color', 'grey lighten-3');
         });
     </script>
     </body>
