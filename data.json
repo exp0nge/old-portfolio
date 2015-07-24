@@ -4,7 +4,7 @@
   "projects": [
     {
       "title": "Series Tracker",
-      "snippet": "Django powered series tracker to keep track of what episode last left on.",
+      "snippet": "Django powered series tracker to keep track of any show.",
       "language": "Django",
       "git": "https://github.com/exp0nge/django-series-tracker",
       "web": "http://portfolio-exp0nge.c9.io/tracker/"
