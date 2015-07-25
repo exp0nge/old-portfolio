@@ -12,7 +12,7 @@
     {
       "title": "drop&dip",
       "snippet": "A local storage solution for quick notes.",
-      "language": "AngularJS",
+      "language": "Angular.js",
       "git": "https://github.com/exp0nge/drop-and-dripset",
       "web": "http://exp0nge.github.io/drop-and-dipset/"
     }

@@ -6,6 +6,5 @@ portfolioApp.controller('MainController', ['$http',
         mv.data = [];
         $http.get('data.json').success(function(response) {
             mv.data = response;
-            console.log(mv.data)
         });
 }]);
