@@ -12,7 +12,7 @@
     {
       "title": "Light Novel Scrapper",
       "snippet": "A scrapper tool to grab contents of chapters of a light novel and store them as HTML files to read later. The script utilizes Readability, with a fallback of grabbing the content-div, to grab relevant text from a website and ebooklib to generate a ePub if necessary.",
-      "stacks": ["Flask", "Celery/Redis", "AngularJS"],
+      "stacks": ["Flask", "Celery/Redis", "AngularJS", "Bootstrap"],
       "img": "lightnovelscrapper.gif",
       "repo": "https://github.com/exp0nge/light-novel-scrapper",
       "web": "https://lightnovelscrapper-exp0nge.rhcloud.com/"
@@ -20,7 +20,7 @@
     {
       "title": "Break Bread",
       "snippet": "A software reengineering of the original Break Bread with Friends. The original project was developed as a course long project for Web Site Design at The City College of New York and used Django. This implementation envisions the project with MongoDB, Express, and Node.js.",
-      "stacks": ["MongoDB", "Express", "Node.js"],
+      "stacks": ["MongoDB", "Express", "Node.js", "Bootstrap"],
       "img": "breakbread.gif",
       "repo": "https://github.com/exp0nge/break-bread-node",
       "web": "https://breakbread-exp0nge.rhcloud.com/"
@@ -29,14 +29,14 @@
     {
       "title": "Mount Sinai PAIR",
       "snippet": "Semester long project for Web Site Design at The City College of New York and was developed for Mount Sinai. This Django app allowed researchers to recruit students for research projects by allowing researchers to post their projects and the specifications for the project. Students would then be able to browse all the projects, made available with Haystack and Whoosh. The app allowed rapid prototyping facilities to monitor both sides of the discussion in the application process for a student and researcher through a customized Django admin panel.",
-      "stacks": ["Django"],
+      "stacks": ["Django", "Materialize"],
       "img": "mountsinai.jpg",
       "repo": "https://bitbucket.org/mdislamwork/mountsinaipair-dev"
     },
     {
       "title": "Series Tracker",
       "snippet": "An app to keep track of various series (TV shows, manga, anime, etc). Created over summer 2015 in an effort to learn web development with Django.",
-      "stacks": ["Django", "AngularJS"],
+      "stacks": ["Django", "AngularJS", "Materialize"],
       "img": "seriestracker.gif",
       "repo": "https://github.com/exp0nge/series-tracker-dev",
       "web": "https://series-tracker-dev-exp0nge.c9.io/tracker/"
@@ -47,6 +47,13 @@
       "stacks": ["Python"],
       "img": "btcpiggy.png",
       "repo": "https://github.com/exp0nge/bitcoin-piggy-bank"
+    },
+    {
+      "title": "P2PBooks",
+      "snippet": "This repository is for Jie Wei's CSc 322, Software Engineering class at The City College of New York, which is to design and implement a private book sharing system. The goal of the project was to learn the software development cycle. The full spec sheet, design report and the SRS report are included in the 1.0.0 release (repo).",
+      "stacks": ["Python", "PySide"],
+      "img": "p2pbooks.gif",
+      "repo": "https://github.com/psuong/P2PBooks"
     }
   ],
 
