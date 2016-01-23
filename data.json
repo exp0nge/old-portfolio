@@ -25,6 +25,14 @@
       "repo": "https://github.com/exp0nge/break-bread-node",
       "web": "https://breakbread-exp0nge.rhcloud.com/"
     },
+
+    {
+      "title": "Mount Sinai PAIR",
+      "snippet": "Semester long project for Web Site Design at The City College of New York and was developed for Mount Sinai. This Django app allowed researchers to recruit students for research projects by allowing researchers to post their projects and the specifications for the project. Students would then be able to browse all the projects, made available with Haystack and Whoosh. The app allowed rapid prototyping facilities to monitor both sides of the discussion in the application process for a student and researcher through a customized Django admin panel.",
+      "stacks": ["Django"],
+      "img": "mountsinai.jpg",
+      "repo": "https://bitbucket.org/mdislamwork/mountsinaipair-dev"
+    },
     {
       "title": "Series Tracker",
       "snippet": "An app to keep track of various series (TV shows, manga, anime, etc). Created over summer 2015 in an effort to learn web development with Django.",
