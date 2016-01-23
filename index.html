@@ -14,6 +14,7 @@
   <body ng-controller="MainController as main">
     <nav class="navbar navbar-dark navbar-full bg-inverse">
       <div class="nav navbar-nav container-fluid">
+        <a class="navbar-brand" href="#">MD R. Islam - Portfolio</a>
         <a class="nav-item nav-link" href="#projects">Projects</a>
         <a class="nav-item nav-link" href="#aboutme">About</a>
         <a class="nav-item nav-link" href="#experience">Experience</a>
@@ -34,10 +35,18 @@
                 <hr>
                 <p class="card-text">{{ project.snippet }}</p>
                 <hr>
-                <p>
-                    <a href="{{ project.repo }}" class="card-link">Repo</a>
-                    <a href="{{ project.web }}" class="card-link" ng-if="project.web">Demo</a>
-                </p>
+                <div class="row">
+                  <a href="{{ project.repo }}">
+                    <div class="col-sm-6 btn btn-primary">
+                    Repo
+                    </div>
+                  </a>
+                  <a href="{{ project.web }}" ng-if="project.web">
+                    <div class="col-sm-6 btn btn-info">
+                    Demo
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
             </div>
@@ -75,7 +84,7 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="card card-block">
-                    <h3 class="card-title">Languages/Frameworks</h3>
+                    <h3 class="card-title">Programming</h3>
                     <hr>
                     <div class="card-text">
                       <ul style="list-style: none; margin: 0px; padding: 0px">

@@ -1,8 +1,8 @@
 {
   "about": {
-    "text": "Software engineering is my passion and my career goal. Ever since I was a young child, I have wanted to pursue software development and I realized I could do it with Computer Science. When I become inspired to create a software project, I commit to it and try to develop a MVP (see projects section). When I’m not coding, I enjoy reading light novels, watching anime, and TV shows.",
+    "text": "My name is MD Islam, and software engineering is my passion and my career goal. Ever since I was a young child, I have wanted to pursue software development and I realized I could do it with Computer Science. When I become inspired to create a software project, I commit to it and try to develop a MVP (see projects section). When I’m not coding, I enjoy reading light novels, watching anime, and TV shows.",
     "img": "selfie.jpg",
-    "stacks": ["Python", "JavaScript", "Django/Flask", "MEAN", "Java", "Android"],
+    "stacks": ["Python", "JavaScript", "Django/Flask", "MEAN", "Java", "Android", "C/C++", "Git/Mercurial"],
     "college": "The City College of New York",
     "major": "Computer Science",
     "degree": "Bachelors of Science (Expected May 2017)"
