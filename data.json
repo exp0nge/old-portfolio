@@ -23,7 +23,7 @@
       "stacks": ["MongoDB", "Express", "Node.js"],
       "img": "breakbread.gif",
       "repo": "https://github.com/exp0nge/break-bread-node",
-      "web": "http://breakbread-exp0nge.rhcloud.com/"
+      "web": "https://breakbread-exp0nge.rhcloud.com/"
     },
     {
       "title": "Series Tracker",
@@ -31,7 +31,7 @@
       "stacks": ["Django", "AngularJS"],
       "img": "seriestracker.gif",
       "repo": "https://github.com/exp0nge/series-tracker-dev",
-      "web": "http://series-tracker-dev-exp0nge.c9.io/tracker/"
+      "web": "https://series-tracker-dev-exp0nge.c9.io/tracker/"
     }
   ],
 
