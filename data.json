@@ -15,7 +15,7 @@
       "stacks": ["Flask", "Celery/Redis", "AngularJS"],
       "img": "lightnovelscrapper.gif",
       "repo": "https://github.com/exp0nge/light-novel-scrapper",
-      "web": "http://lightnovelscrapper-exp0nge.rhcloud.com/"
+      "web": "https://lightnovelscrapper-exp0nge.rhcloud.com/"
     },
     {
       "title": "Break Bread",
@@ -32,6 +32,23 @@
       "img": "seriestracker.gif",
       "repo": "https://github.com/exp0nge/series-tracker-dev",
       "web": "http://series-tracker-dev-exp0nge.c9.io/tracker/"
+    }
+  ],
+
+  "experiences": [
+    {
+      "company": "Los Alamos National Laboratory",
+      "img": "losalamos.jpg",
+      "dates": "June 2015 - August 2015",
+      "position": "Student Intern (Software Development)",
+      "text": "Used PySide to create a cross-platform GUI to leverage pre-existing code, and make it more appealing to use. Redesigned the software’s website to be more modern, and dynamic. "
+    },
+    {
+      "company": "The City College of New York",
+      "img": "ccny.jpg",
+      "dates": "August 2013 - Current",
+      "position": "Admissions Ambassador",
+      "text": "Facilitate general campus tours. Attend off-campus recruitment events. Keep large scale on-campus events (e.g. Open House) organized."
     }
   ]
 }

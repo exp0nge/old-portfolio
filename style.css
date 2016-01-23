@@ -1,16 +1,24 @@
 #projects {
+  padding-top: 30px;
+  padding-bottom: 20px;
   background-color: #EDEAE3
 }
 
 #aboutme {
+  padding-top: 30px;
+  padding-bottom: 20px;
   background-color: #34302D
 }
 
 #experience {
+  padding-top: 30px;
+  padding-bottom: 20px;
   background-color: #E6E6E6
 }
 
 #contact {
+  padding-top: 30px;
+  padding-bottom: 20px;
   background: #86C543
 }
 

@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body ng-controller="MainController as main">
-    <nav class="navbar navbar-dark bg-inverse">
+    <nav class="navbar navbar-dark navbar-full bg-inverse">
       <div class="nav navbar-nav">
         <a class="nav-item nav-link" href="#projects">Projects</a>
         <a class="nav-item nav-link" href="#aboutme">About</a>
         <a class="nav-item nav-link" href="#experience">Experience</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
       </div>
     </nav>
     <main>
@@ -85,8 +86,25 @@
       </div>
       <div id="experience">
         <div class="container">
-
+          <div class="row" ng-repeat="experience in main.data.experiences">
+            <div class="col-sm-6 col-md-offset-3">
+              <div class="card">
+                <img src="{{ experience.img }}" alt="los alamos lab" class="card-img-top" width="100%" height="200px"/>
+                <div class="card-block">
+                  <h4 class="card-title">{{ experience.company }}</h4>
+                  <div class="card-text">
+                    <strong>{{ experience.position }}</strong> <br>
+                    {{ experience.dates }} <br>
+                    {{ experience.text }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div id="contact">
+        
       </div>
     </main>
 
