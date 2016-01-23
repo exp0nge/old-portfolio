@@ -45,7 +45,7 @@
       "title": "Bitcoin Piggy Bank",
       "snippet": "The idea was formulated during NYU Leslie eLab Hackathon which called for Bitcoin themed hacks. I was given the idea to create something that is similar to the conventional piggy banks we grew up with. Instead of using real piggy banks, we replace it with virtual or a physical representation of it. Instead of real money, we use bitcoin. This allows people to learn about and use bitcoin. I mostly used Blockchain's API to utilize most of the funtionality for this project.",
       "stacks": ["Python"],
-      "img": "bitcoinpiggybank.png",
+      "img": "btcpiggy.png",
       "repo": "https://github.com/exp0nge/bitcoin-piggy-bank"
     }
   ],
