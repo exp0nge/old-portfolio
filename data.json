@@ -50,5 +50,16 @@
       "position": "Admissions Ambassador",
       "text": "Facilitate general campus tours. Attend off-campus recruitment events. Keep large scale on-campus events (e.g. Open House) organized."
     }
+  ],
+
+  "contact": [
+    {
+      "img": "github.png",
+      "link": "https://github.com/exp0nge"
+    },
+    {
+      "img": "linkedin.png",
+      "link": "https://www.linkedin.com/in/mdislamr"
+    }
   ]
 }

@@ -17,6 +17,7 @@
         <a class="nav-item nav-link" href="#aboutme">About</a>
         <a class="nav-item nav-link" href="#experience">Experience</a>
         <a class="nav-item nav-link" href="#contact">Contact</a>
+        <a class="nav-item nav-link" href="resume.pdf">Resume</a>
       </div>
     </nav>
     <main>
@@ -95,16 +96,28 @@
                   <div class="card-text">
                     <strong>{{ experience.position }}</strong> <br>
                     {{ experience.dates }} <br>
+                    <hr>
                     {{ experience.text }}
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-offset-5">
+              <a href="resume.pdf" class="btn btn-primary">Download resume (PDF)</a>
+            </div>
+          </div>
         </div>
       </div>
       <div id="contact">
-        
+        <div class="row">
+          <div class="col-sm-6 col-md-offset-5">
+            <ul style="list-style: none; margin: 0px; padding: 0px">
+              <li style="display: inline" ng-repeat="item in main.data.contact"><a href="{{ item.link }}"><img src="{{ item.img }}" alt="" /></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
 
