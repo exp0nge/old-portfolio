@@ -1,0 +1,21 @@
+#projects {
+  background-color: #EDEAE3
+}
+
+#aboutme {
+  background-color: #34302D
+}
+
+#experience {
+  background-color: #E6E6E6
+}
+
+#contact {
+  background: #86C543
+}
+
+.selfie {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}

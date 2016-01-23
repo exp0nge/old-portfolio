@@ -1,20 +1,37 @@
 {
-  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.",
-    
+  "about": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.",
+    "img": "selfie.jpg",
+    "stacks": ["Python", "JavaScript", "Django/Flask", "MEAN", "Java", "Android"],
+    "college": "The City College of New York",
+    "major": "Computer Science",
+    "degree": "Bachelors of Science (Expected May 2017)"
+  },
+
   "projects": [
     {
-      "title": "Series Tracker",
-      "snippet": "Django powered series tracker to keep track of any show.",
-      "language": "Django",
-      "git": "https://github.com/exp0nge/django-series-tracker",
-      "web": "http://series-tracker-dev-exp0nge.c9.io/tracker/"
+      "title": "Light Novel Scrapper",
+      "snippet": "A scrapper tool to grab contents of chapters of a light novel and store them as HTML files to read later. The script utilizes Readability, with a fallback of grabbing the content-div, to grab relevant text from a website and ebooklib to generate a ePub if necessary.",
+      "stacks": ["Flask", "Celery/Redis", "AngularJS"],
+      "img": "lightnovelscrapper.gif",
+      "repo": "https://github.com/exp0nge/light-novel-scrapper",
+      "web": "http://lightnovelscrapper-exp0nge.rhcloud.com/"
     },
     {
-      "title": "drop&dip",
-      "snippet": "A local storage solution for quick notes.",
-      "language": "Angular.js",
-      "git": "https://github.com/exp0nge/drop-and-dripset",
-      "web": "http://exp0nge.github.io/drop-and-dipset/"
+      "title": "Break Bread",
+      "snippet": "A software reengineering of the original Break Bread with Friends. The original project was developed as a course long project for Web Site Design at The City College of New York and used Django. This implementation envisions the project with MongoDB, Express, and Node.js.",
+      "stacks": ["MongoDB", "Express", "Node.js"],
+      "img": "breakbread.gif",
+      "repo": "https://github.com/exp0nge/break-bread-node",
+      "web": "http://breakbread-exp0nge.rhcloud.com/"
+    },
+    {
+      "title": "Series Tracker",
+      "snippet": "An app to keep track of various series (TV shows, manga, anime, etc). Created over summer 2015 in an effort to learn web development with Django.",
+      "stacks": ["Django", "AngularJS"],
+      "img": "seriestracker.gif",
+      "repo": "https://github.com/exp0nge/series-tracker-dev",
+      "web": "http://series-tracker-dev-exp0nge.c9.io/tracker/"
     }
   ]
 }
