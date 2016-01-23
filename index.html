@@ -13,7 +13,7 @@
   </head>
   <body ng-controller="MainController as main">
     <nav class="navbar navbar-dark navbar-full bg-inverse">
-      <div class="nav navbar-nav">
+      <div class="nav navbar-nav container-fluid">
         <a class="nav-item nav-link" href="#projects">Projects</a>
         <a class="nav-item nav-link" href="#aboutme">About</a>
         <a class="nav-item nav-link" href="#experience">Experience</a>
@@ -22,8 +22,7 @@
       </div>
     </nav>
     <main>
-      <div id="projects">
-        <div class="container">
+      <div id="projects" class="container-fluid">
           <div class="row">
             <div class="col-sm-4" ng-repeat="project in main.data.projects">
               <div class="card">
@@ -31,7 +30,9 @@
               <div class="card-block">
                 <h4 class="card-title">{{ project.title }}</h4>
                 <span ng-repeat="stack in project.stacks" class="label label-info">{{ stack }}</span>
+                <hr>
                 <p class="card-text">{{ project.snippet }}</p>
+                <hr>
                 <p>
                     <a href="{{ project.repo }}" class="card-link">Repo</a>
                     <a href="{{ project.web }}" class="card-link" ng-if="project.web">Demo</a>
@@ -40,11 +41,9 @@
             </div>
             </div>
           </div>
-        </div>
       </div>
-      <div id="aboutme">
+      <div id="aboutme" class="container-fluid">
         <br>
-        <div class="container">
           <div class="row">
             <div class="col-sm-4">
               <img ng-src="{{ main.data.about.img }}" alt="selfie" class="selfie"/>
@@ -52,6 +51,7 @@
             <div class="col-sm-8">
               <div class="card card-block">
                 <h3 class="card-title">About Me</h3>
+                <hr>
                 <div class="card-text">
                   {{ main.data.about.text }}
                 </div>
@@ -62,6 +62,7 @@
                     <h3 class="card-title">
                       Education
                     </h3>
+                    <hr>
                     <div class="card-text">
                       {{ main.data.about.college }} <br>
                       {{ main.data.about.major }} <br>
@@ -72,6 +73,7 @@
                 <div class="col-sm-6">
                   <div class="card card-block">
                     <h3 class="card-title">Languages/Frameworks</h3>
+                    <hr>
                     <div class="card-text">
                       <ul style="list-style: none; margin: 0px; padding: 0px">
                         <li ng-repeat="stack in main.data.about.stacks" style="display: inline">
@@ -84,10 +86,8 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
-      <div id="experience">
-        <div class="container">
+      <div id="experience" class="container-fluid">
           <div class="row" ng-repeat="experience in main.data.experiences">
             <div class="col-sm-6 col-md-offset-3">
               <div class="card">
@@ -111,9 +111,8 @@
               </div>
           </a>
           </div>
-        </div>
       </div>
-      <div id="contact">
+      <div id="contact" class="container-fluid">
         <div class="row">
           <div class="col-sm-6 col-md-offset-5">
             <ul style="list-style: none; margin: 0px; padding: 0px">
