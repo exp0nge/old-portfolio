@@ -59,6 +59,13 @@
 
   "experiences": [
     {
+      "company": "JPMorgan Chase & Co.",
+      "img": "jp.jpg",
+      "dates": "June 2016 - August 2016",
+      "position": "Technology Analyst Intern",
+      "text": ""
+    },
+    {
       "company": "Los Alamos National Laboratory",
       "img": "losalamos.jpg",
       "dates": "June 2015 - August 2015",
