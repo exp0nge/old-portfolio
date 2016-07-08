@@ -37,7 +37,7 @@
       "stacks": ["Django", "AngularJS", "Materialize"],
       "img": "seriestracker.gif",
       "repo": "https://github.com/exp0nge/series-tracker-dev",
-      "web": "https://series-tracker-dev-exp0nge.c9.io/tracker/"
+      "web": "https://series-tracker.azurewebsites.net"
     },
     {
       "title": "Bitcoin Piggy Bank",
