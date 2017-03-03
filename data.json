@@ -60,9 +60,9 @@
     {
       "company": "appFigures",
       "img": "appfigures.png",
-      "dates": "January 2017 -",
+      "dates": "January 2017 - Present",
       "position": "Back End Developer",
-      "text": ""
+      "text": "Developing back end components in C#/.NET/Python."
     },
     {
       "company": "Gleam",
@@ -88,7 +88,7 @@
     {
       "company": "The City College of New York",
       "img": "ccny.jpg",
-      "dates": "August 2013 - Current",
+      "dates": "August 2013 - May 2017",
       "position": "Admissions Ambassador",
       "text": "Facilitate general campus tours. Attend off-campus recruitment events. Keep large scale on-campus events (e.g. Open House) organized."
     }
