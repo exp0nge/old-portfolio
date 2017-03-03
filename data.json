@@ -58,9 +58,16 @@
 
   "experiences": [
     {
+      "company": "appFigures",
+      "img": "appfigures.png",
+      "dates": "January 2017 -",
+      "position": "Back End Developer",
+      "text": ""
+    },
+    {
       "company": "Gleam",
       "img": "gleam.jpg",
-      "dates": "January 2016 -",
+      "dates": "January 2016 - January 2017",
       "position": "Software Developer",
       "text": "Developed and maintained chat, data visualization, task, journal, and note management system for patient and therapist views. Semi-finalists in the Zahn Innovation Competition and part of the summer accelerator 2016 cohort."
     },
